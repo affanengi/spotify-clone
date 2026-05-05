@@ -98,7 +98,7 @@ export default function TopBar() {
 
       <div className="top-bar-right">
         {/* Placeholder for User Profile or other actions */}
-        <div className="user-avatar-placeholder">M</div>
+        <div className="user-avatar-placeholder">S</div>
       </div>
     </div>
   );
