@@ -1,0 +1,196 @@
+.top-bar-container {
+  grid-column: 1 / -1;
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 24px;
+  background-color: var(--background-base);
+  z-index: 100;
+}
+
+.top-bar-left, .top-bar-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.top-bar-right {
+  justify-content: flex-end;
+}
+
+.spotify-logo {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: transform 0.2s;
+}
+
+.spotify-logo:hover {
+  transform: scale(1.05);
+}
+
+.top-bar-center {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 2;
+  justify-content: center;
+  position: relative;
+}
+
+.home-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--background-elevated-base);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.home-btn:hover {
+  transform: scale(1.05);
+  background-color: var(--background-elevated-highlight);
+}
+
+.search-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 480px;
+  background-color: var(--background-elevated-base);
+  border-radius: 24px;
+  padding: 12px 16px;
+  transition: background-color 0.2s, border 0.2s;
+  border: 1px solid transparent;
+}
+
+.search-input-wrapper:hover {
+  background-color: var(--background-elevated-highlight);
+}
+
+.search-input-wrapper.focused {
+  background-color: var(--background-elevated-highlight);
+  border: 1px solid var(--text-subdued);
+}
+
+.search-icon {
+  color: var(--text-subdued);
+  margin-right: 12px;
+}
+
+.search-input {
+  background: transparent;
+  border: none;
+  color: var(--text-base);
+  font-size: 1rem;
+  width: 100%;
+  outline: none;
+  font-family: inherit;
+}
+
+.search-input::placeholder {
+  color: var(--text-subdued);
+}
+
+.clear-btn {
+  color: var(--text-subdued);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clear-btn:hover {
+  color: var(--text-base);
+}
+
+.recent-searches-dropdown {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-elevated-highlight);
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 16px 24px rgba(0,0,0,0.5);
+  z-index: 1000;
+}
+
+.recent-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: var(--text-base);
+}
+
+.recent-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.recent-item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.recent-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.recent-img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  margin-right: 12px;
+  border-radius: 4px;
+}
+
+.recent-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.recent-name {
+  font-weight: 600;
+  color: var(--text-base);
+}
+
+.recent-type {
+  font-size: 0.875rem;
+  color: var(--text-subdued);
+}
+
+.remove-recent {
+  color: var(--text-subdued);
+  padding: 8px;
+}
+
+.remove-recent:hover {
+  color: var(--text-base);
+}
+
+.user-avatar-placeholder {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #f15e6c;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  border: 4px solid var(--background-base);
+}

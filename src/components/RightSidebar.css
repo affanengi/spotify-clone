@@ -1,0 +1,145 @@
+.right-sidebar-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 16px;
+}
+
+.right-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.right-title {
+  font-size: 14px;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.right-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.icon-btn-small {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-subdued);
+  background-color: transparent;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.icon-btn-small:hover {
+  background-color: var(--background-tinted-base);
+  color: var(--text-base);
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+}
+
+.large-cover-art {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+}
+
+.large-cover-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.track-info-large {
+  display: flex;
+  flex-direction: column;
+}
+
+.track-title-large {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.track-artist-large {
+  font-size: 16px;
+  color: var(--text-subdued);
+  font-weight: 500;
+}
+
+.about-artist-card {
+  background-color: var(--background-tinted-base);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-artist-header {
+  padding: 16px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.artist-hero {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.about-artist-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.artist-name-card {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.artist-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listeners {
+  font-size: 14px;
+  color: var(--text-subdued);
+}
+
+.follow-btn {
+  border: 1px solid var(--text-subdued);
+  border-radius: 16px;
+  padding: 4px 15px;
+  font-size: 12px;
+  font-weight: 700;
+  background: transparent;
+  transition: transform 0.1s, border-color 0.2s;
+}
+
+.follow-btn:hover {
+  border-color: var(--text-base);
+  transform: scale(1.05);
+}
+
+.artist-bio {
+  font-size: 14px;
+  color: var(--text-subdued);
+  line-height: 1.4;
+}

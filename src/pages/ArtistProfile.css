@@ -1,0 +1,96 @@
+.artist-profile {
+  position: relative;
+  min-height: 100%;
+}
+
+.artist-hero-bg {
+  position: relative;
+  height: 340px;
+  background-size: cover;
+  background-position: center 20%;
+}
+
+.artist-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(0deg, var(--background-elevated-base) 0%, rgba(0,0,0,0) 100%);
+}
+
+.artist-hero-content {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.verified-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.verified-badge span {
+  font-size: 14px;
+  font-weight: 500;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.artist-title {
+  font-size: 96px;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  margin-bottom: 16px;
+  text-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.artist-listeners {
+  font-size: 16px;
+  font-weight: 500;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.artist-actions-bar {
+  position: relative;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  z-index: 1;
+}
+
+.follow-btn-large {
+  border: 1px solid var(--text-subdued);
+  border-radius: 4px;
+  padding: 8px 32px;
+  font-size: 14px;
+  font-weight: 700;
+  background: transparent;
+  transition: transform 0.1s, border-color 0.2s;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.follow-btn-large:hover {
+  border-color: var(--text-base);
+  transform: scale(1.05);
+}
+
+.icon-btn-large {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.artist-content-section {
+  padding: 0 24px 32px;
+  position: relative;
+  z-index: 1;
+}

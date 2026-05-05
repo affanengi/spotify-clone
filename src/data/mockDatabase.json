@@ -1,0 +1,580 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Mohammed Affan Razvi",
+      "profileImageUrl": "https://i.pravatar.cc/150?u=a042581f4e29026704d",
+      "likedSongs": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7",
+        "t8",
+        "t9",
+        "t10",
+        "t11",
+        "t12",
+        "t13",
+        "t14",
+        "t15",
+        "t16",
+        "t17",
+        "t18",
+        "t19",
+        "t20",
+        "t21",
+        "t22",
+        "t23",
+        "t24",
+        "t25",
+        "t26",
+        "t27",
+        "t28",
+        "t29",
+        "t30"
+      ]
+    }
+  ],
+  "artists": [
+    {
+      "id": "a1",
+      "name": "The Weeknd",
+      "monthlyListeners": 38289989,
+      "bio": "This is a generated bio for The Weeknd. They are an amazing artist with great vocal tracks.",
+      "heroImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2a/aa/b4/2aaab42a-a4cb-a600-4a25-d78961495960/18UMGIM17204.rgb.jpg/600x600bb.jpg",
+      "avatarUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2a/aa/b4/2aaab42a-a4cb-a600-4a25-d78961495960/18UMGIM17204.rgb.jpg/300x300bb.jpg"
+    },
+    {
+      "id": "a2",
+      "name": "Taylor Swift",
+      "monthlyListeners": 3273245,
+      "bio": "This is a generated bio for Taylor Swift. They are an amazing artist with great vocal tracks.",
+      "heroImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/46/e0/2d46e0bc-8ab9-85dd-4b56-ee6951351034/25UM1IM19577.rgb.jpg/600x600bb.jpg",
+      "avatarUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/46/e0/2d46e0bc-8ab9-85dd-4b56-ee6951351034/25UM1IM19577.rgb.jpg/300x300bb.jpg"
+    },
+    {
+      "id": "a3",
+      "name": "Ed Sheeran",
+      "monthlyListeners": 3984802,
+      "bio": "This is a generated bio for Ed Sheeran. They are an amazing artist with great vocal tracks.",
+      "heroImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/15/e6/e8/15e6e8a4-4190-6a8b-86c3-ab4a51b88288/190295851286.jpg/600x600bb.jpg",
+      "avatarUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/15/e6/e8/15e6e8a4-4190-6a8b-86c3-ab4a51b88288/190295851286.jpg/300x300bb.jpg"
+    },
+    {
+      "id": "a4",
+      "name": "Post Malone & Swae Lee",
+      "monthlyListeners": 20162162,
+      "bio": "This is a generated bio for Post Malone & Swae Lee. They are an amazing artist with great vocal tracks.",
+      "heroImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4b/30/2c/4b302cb6-7a14-5464-4e97-0577e9d0be49/18UMGIM82277.rgb.jpg/600x600bb.jpg",
+      "avatarUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4b/30/2c/4b302cb6-7a14-5464-4e97-0577e9d0be49/18UMGIM82277.rgb.jpg/300x300bb.jpg"
+    },
+    {
+      "id": "a5",
+      "name": "Dua Lipa",
+      "monthlyListeners": 9124478,
+      "bio": "This is a generated bio for Dua Lipa. They are an amazing artist with great vocal tracks.",
+      "heroImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6c/11/d6/6c11d681-aa3a-d59e-4c2e-f77e181026ab/190295092665.jpg/600x600bb.jpg",
+      "avatarUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6c/11/d6/6c11d681-aa3a-d59e-4c2e-f77e181026ab/190295092665.jpg/300x300bb.jpg"
+    },
+    {
+      "id": "a6",
+      "name": "Emiway Bantai",
+      "monthlyListeners": 43064104,
+      "bio": "This is a generated bio for Emiway Bantai. They are an amazing artist with great vocal tracks.",
+      "heroImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5b/db/e9/5bdbe939-92c8-df00-f942-2534813d0d06/cover.jpg/600x600bb.jpg",
+      "avatarUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5b/db/e9/5bdbe939-92c8-df00-f942-2534813d0d06/cover.jpg/300x300bb.jpg"
+    }
+  ],
+  "albums": [
+    {
+      "id": "al1",
+      "title": "My Dear Melancholy,",
+      "artistId": "a1",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2a/aa/b4/2aaab42a-a4cb-a600-4a25-d78961495960/18UMGIM17204.rgb.jpg/300x300bb.jpg",
+      "releaseYear": 2018
+    },
+    {
+      "id": "al2",
+      "title": "Blinding Lights - Single",
+      "artistId": "a1",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a6/6e/bf/a66ebf79-5008-8948-b352-a790fc87446b/19UM1IM04638.rgb.jpg/300x300bb.jpg",
+      "releaseYear": 2019
+    },
+    {
+      "id": "al3",
+      "title": "Starboy",
+      "artistId": "a1",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e2/61/f8/e261f8c1-73db-9a7a-c89e-1068f19970e0/16UMGIM67863.rgb.jpg/300x300bb.jpg",
+      "releaseYear": 2016
+    },
+    {
+      "id": "al4",
+      "title": "The Idol Episode 4 (Music from the HBO Original Series) - Single",
+      "artistId": "a1",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/db/28/e7/db28e7c3-f53a-76c8-eaa4-d92a22e4f160/23UMGIM72115.rgb.jpg/300x300bb.jpg",
+      "releaseYear": 2023
+    },
+    {
+      "id": "al5",
+      "title": "The Life of a Showgirl",
+      "artistId": "a2",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/46/e0/2d46e0bc-8ab9-85dd-4b56-ee6951351034/25UM1IM19577.rgb.jpg/300x300bb.jpg",
+      "releaseYear": 2025
+    },
+    {
+      "id": "al6",
+      "title": "1989",
+      "artistId": "a2",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/89/4a/4a/894a4ab9-b0b0-9ea5-ca41-8da0b9b79453/14UMDIM03405.rgb.jpg/300x300bb.jpg",
+      "releaseYear": 2014
+    },
+    {
+      "id": "al7",
+      "title": "Lover",
+      "artistId": "a2",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/49/3d/ab/493dab54-f920-9043-6181-80993b8116c9/19UMGIM53909.rgb.jpg/300x300bb.jpg",
+      "releaseYear": 2019
+    },
+    {
+      "id": "al8",
+      "title": "Fearless (Platinum Edition)",
+      "artistId": "a2",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/59/dc/cb/59dccbb0-73f9-701e-7b5b-58c902ddfe68/09UMDIM00338.rgb.jpg/300x300bb.jpg",
+      "releaseYear": 2008
+    },
+    {
+      "id": "al9",
+      "title": "÷ (Deluxe)",
+      "artistId": "a3",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/15/e6/e8/15e6e8a4-4190-6a8b-86c3-ab4a51b88288/190295851286.jpg/300x300bb.jpg",
+      "releaseYear": 2017
+    },
+    {
+      "id": "al10",
+      "title": "x (Wembley Edition)",
+      "artistId": "a3",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2d/36/f9/2d36f9a7-2c3e-ce0f-7fb6-036feecb221f/825646974450.jpg/300x300bb.jpg",
+      "releaseYear": 2014
+    },
+    {
+      "id": "al11",
+      "title": "=",
+      "artistId": "a3",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c5/d8/c6/c5d8c675-63e3-6632-33db-2401eabe574d/190296491412.jpg/300x300bb.jpg",
+      "releaseYear": 2021
+    },
+    {
+      "id": "al12",
+      "title": "Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture)",
+      "artistId": "a4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4b/30/2c/4b302cb6-7a14-5464-4e97-0577e9d0be49/18UMGIM82277.rgb.jpg/300x300bb.jpg",
+      "releaseYear": 2018
+    },
+    {
+      "id": "al13",
+      "title": "Hollywood's Bleeding",
+      "artistId": "a4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7b/1b/1b/7b1b1b0b-7ce2-b223-f9e0-8e36abe51877/19UMGIM78325.rgb.jpg/300x300bb.jpg",
+      "releaseYear": 2019
+    },
+    {
+      "id": "al14",
+      "title": "F-1 Trillion",
+      "artistId": "a4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/95/ad/c8/95adc8ca-e583-1800-9b56-4665f186e899/24UMGIM60824.rgb.jpg/300x300bb.jpg",
+      "releaseYear": 2024
+    },
+    {
+      "id": "al15",
+      "title": "Magnets EP",
+      "artistId": "a4",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/23/f5/92/23f592cc-2090-06fc-9ca2-0cc6c95900e4/190295418267.jpg/300x300bb.jpg",
+      "releaseYear": 2019
+    },
+    {
+      "id": "al16",
+      "title": "Future Nostalgia",
+      "artistId": "a5",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6c/11/d6/6c11d681-aa3a-d59e-4c2e-f77e181026ab/190295092665.jpg/300x300bb.jpg",
+      "releaseYear": 2020
+    },
+    {
+      "id": "al17",
+      "title": "Dua Lipa (Deluxe)",
+      "artistId": "a5",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c1/54/2d/c1542d45-c6c2-12ca-7308-6eacd762c562/190295807870.jpg/300x300bb.jpg",
+      "releaseYear": 2017
+    },
+    {
+      "id": "al18",
+      "title": "Barbie The Album",
+      "artistId": "a5",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c0/54/97/c05497aa-c19f-bf4f-de29-71edf30fbefb/075679688767.jpg/300x300bb.jpg",
+      "releaseYear": 2023
+    },
+    {
+      "id": "al19",
+      "title": "Don't Start Now - Single",
+      "artistId": "a5",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/ee/66/41ee66fa-f8dd-7e82-155a-3a1b360dc562/190295322175.jpg/300x300bb.jpg",
+      "releaseYear": 2019
+    },
+    {
+      "id": "al20",
+      "title": "Houdini - Single",
+      "artistId": "a5",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/dd/af/ea/ddafeab5-797a-5b6f-7735-f96c537b45e0/5054197894091.jpg/300x300bb.jpg",
+      "releaseYear": 2023
+    },
+    {
+      "id": "al21",
+      "title": "Machayenge - Single",
+      "artistId": "a6",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5b/db/e9/5bdbe939-92c8-df00-f942-2534813d0d06/cover.jpg/300x300bb.jpg",
+      "releaseYear": 2019
+    },
+    {
+      "id": "al22",
+      "title": "Firse Machayenge - Single",
+      "artistId": "a6",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/35/1d/8f/351d8fd3-cac3-75bc-89dd-6d79f3584cb7/cover.jpg/300x300bb.jpg",
+      "releaseYear": 2020
+    },
+    {
+      "id": "al23",
+      "title": "Company - Single",
+      "artistId": "a6",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/1b/a0/4f/1ba04fa8-01ba-fff3-4ac2-0c4fda33f345/cover.jpg/300x300bb.jpg",
+      "releaseYear": 2023
+    },
+    {
+      "id": "al24",
+      "title": "Machayenge 3 - Single",
+      "artistId": "a6",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8b/37/d3/8b37d3f9-6822-26de-7c68-e1c98aae8ad9/cover.jpg/300x300bb.jpg",
+      "releaseYear": 2021
+    },
+    {
+      "id": "al25",
+      "title": "Khatam Hue Waande - Single",
+      "artistId": "a6",
+      "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/02/4b/91/024b91c9-45d8-4698-ef12-1c69d8db3896/cover.jpg/300x300bb.jpg",
+      "releaseYear": 2020
+    }
+  ],
+  "tracks": [
+    {
+      "id": "t1",
+      "title": "Call Out My Name",
+      "artistId": "a1",
+      "albumId": "al1",
+      "duration": 228,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d1/2f/3d/d12f3d43-a2e2-eba4-8db5-91f3f3c13f5a/mzaf_8470584399239689698.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t2",
+      "title": "Blinding Lights",
+      "artistId": "a1",
+      "albumId": "al2",
+      "duration": 201,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/17/b4/8f/17b48f9a-0b93-6bb8-fe1d-3a16623c2cfb/mzaf_9560252727299052414.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t3",
+      "title": "Die For You",
+      "artistId": "a1",
+      "albumId": "al3",
+      "duration": 260,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5e/5c/f6/5e5cf682-062f-6d93-4585-8961d45a2513/mzaf_693841552796929970.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t4",
+      "title": "One Of The Girls",
+      "artistId": "a1",
+      "albumId": "al4",
+      "duration": 244,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9e/2f/1f/9e2f1f11-20a8-767a-0e33-9029028a7024/mzaf_1603981766065362477.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t5",
+      "title": "I Feel It Coming (feat. Daft Punk)",
+      "artistId": "a1",
+      "albumId": "al3",
+      "duration": 269,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1a/36/80/1a36802a-1d9b-6318-87a7-7dca1857a60f/mzaf_14430547566964812827.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t6",
+      "title": "The Fate of Ophelia",
+      "artistId": "a2",
+      "albumId": "al5",
+      "duration": 226,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4b/07/28/4b07285f-b50c-7aff-cb40-2d732256b703/mzaf_16739866530441939982.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t7",
+      "title": "Shake It Off",
+      "artistId": "a2",
+      "albumId": "al6",
+      "duration": 219,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/04/86/32/048632f7-a5c5-0f5d-6213-a9e89c3a99b3/mzaf_8458239339293825693.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t8",
+      "title": "Cruel Summer",
+      "artistId": "a2",
+      "albumId": "al7",
+      "duration": 178,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/44/af/81/44af8168-9609-1b85-5048-ada08dceacf3/mzaf_1341699644335558812.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t9",
+      "title": "You Belong With Me",
+      "artistId": "a2",
+      "albumId": "al8",
+      "duration": 231,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/15/6a/e0/156ae0e7-2a35-e1c1-3ebc-c1c837651a50/mzaf_18380354397720038617.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t10",
+      "title": "Blank Space",
+      "artistId": "a2",
+      "albumId": "al6",
+      "duration": 231,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/97/b4/f6/97b4f65f-f334-771c-a4f5-5e7b9b42634f/mzaf_17056874752218225925.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t11",
+      "title": "Perfect",
+      "artistId": "a3",
+      "albumId": "al9",
+      "duration": 263,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c7/ba/bc/c7babc66-f598-aaa6-bcf6-307281795817/mzaf_16337361235117168274.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t12",
+      "title": "Thinking Out Loud",
+      "artistId": "a3",
+      "albumId": "al10",
+      "duration": 281,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/78/a5/f2/78a5f25e-ad1b-718d-82ad-b82e676c1855/mzaf_6133970271589343093.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t13",
+      "title": "Shape of You",
+      "artistId": "a3",
+      "albumId": "al9",
+      "duration": 233,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/44/c7/4f/44c74f0d-72dc-6143-d4d0-ba14d661ca0d/mzaf_9566898362556366703.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t14",
+      "title": "Shivers",
+      "artistId": "a3",
+      "albumId": "al11",
+      "duration": 207,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a8/9f/a5/a89fa5e9-8a3b-77bb-e081-866067d3f213/mzaf_13889707114574366771.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t15",
+      "title": "Photograph",
+      "artistId": "a3",
+      "albumId": "al10",
+      "duration": 258,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/11/4f/6a/114f6ad0-165c-1e3c-8fbd-df4707d7ae26/mzaf_12480083080052535279.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t16",
+      "title": "Sunflower (Spider-Man: Into the Spider-Verse)",
+      "artistId": "a4",
+      "albumId": "al12",
+      "duration": 158,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/98/f0/d6/98f0d67e-f8bf-762d-cac7-1c6b3b6b35dd/mzaf_4543283896248560946.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t17",
+      "title": "Circles",
+      "artistId": "a4",
+      "albumId": "al13",
+      "duration": 215,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/b1/aa/f9b1aaed-3e24-227f-153d-99969f8b8464/mzaf_6272498007975402144.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t18",
+      "title": "Pour Me A Drink (feat. Blake Shelton)",
+      "artistId": "a4",
+      "albumId": "al14",
+      "duration": 195,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/75/36/5b/75365b00-85bb-f2bd-9eb8-7fef861efb06/mzaf_10285050304793701921.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t19",
+      "title": "Take What You Want (feat. Ozzy Osbourne & Travis Scott)",
+      "artistId": "a4",
+      "albumId": "al13",
+      "duration": 229,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f0/bc/f4/f0bcf490-3c10-a4a7-f47d-77ff43cb5f7f/mzaf_593599495913580444.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t20",
+      "title": "Post Malone (feat. RANI)",
+      "artistId": "a4",
+      "albumId": "al15",
+      "duration": 174,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/4e/be/724ebec2-c0e4-a344-73b0-5e41cfdd7b14/mzaf_2338206331794106004.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t21",
+      "title": "Levitating",
+      "artistId": "a5",
+      "albumId": "al16",
+      "duration": 203,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/59/dc/4d/59dc4dda-93ff-8f1c-c536-f005f6ea6af5/mzaf_3066686759813252385.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t22",
+      "title": "New Rules",
+      "artistId": "a5",
+      "albumId": "al17",
+      "duration": 209,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/19/d9/6e19d9ca-1321-1eea-e797-51d7ab5b56c2/mzaf_5898999508314966855.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t23",
+      "title": "Dance The Night",
+      "artistId": "a5",
+      "albumId": "al18",
+      "duration": 176,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9d/9f/56/9d9f566f-abf6-5f10-bcdb-09e14dcace42/mzaf_10277018989080903908.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t24",
+      "title": "Don't Start Now",
+      "artistId": "a5",
+      "albumId": "al19",
+      "duration": 183,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/3d/34/243d3413-a0fc-b229-f54a-1715ebd3a9ca/mzaf_11578996572221800393.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t25",
+      "title": "Houdini",
+      "artistId": "a5",
+      "albumId": "al20",
+      "duration": 185,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2c/da/b5/2cdab5c6-04a8-5231-c697-00101e876479/mzaf_5586859405346659517.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t26",
+      "title": "Machayenge",
+      "artistId": "a6",
+      "albumId": "al21",
+      "duration": 152,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d8/16/80/d8168087-dcaa-a6cd-a52a-3fffdeacdf99/mzaf_17428241463130554613.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t27",
+      "title": "Firse Machayenge",
+      "artistId": "a6",
+      "albumId": "al22",
+      "duration": 207,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/48/da/0f/48da0f1b-97d5-d824-38ac-ed9e86297498/mzaf_7116352492856001241.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t28",
+      "title": "Company",
+      "artistId": "a6",
+      "albumId": "al23",
+      "duration": 222,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/40/1e/1e/401e1e87-cae1-045f-7788-3fd16f23c9e6/mzaf_11541469363528521671.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t29",
+      "title": "Machayenge 3",
+      "artistId": "a6",
+      "albumId": "al24",
+      "duration": 229,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1f/7a/4e/1f7a4ece-c4f8-79dc-db44-0b3c7b9351d7/mzaf_6881726773682372519.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "t30",
+      "title": "Khatam Hue Waande",
+      "artistId": "a6",
+      "albumId": "al25",
+      "duration": 193,
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/81/29/44/8129442d-9aef-2c2e-a6b5-f6203c769b65/mzaf_15989647710132430606.plus.aac.p.m4a",
+      "dateAdded": "2026-05-05"
+    }
+  ],
+  "playlists": [
+    {
+      "id": "p1",
+      "name": "Liked Songs",
+      "creatorId": "u1",
+      "coverUrl": "https://misc.scdn.co/liked-songs/liked-songs-300.png",
+      "trackIds": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7",
+        "t8",
+        "t9",
+        "t10",
+        "t11",
+        "t12",
+        "t13",
+        "t14",
+        "t15",
+        "t16",
+        "t17",
+        "t18",
+        "t19",
+        "t20",
+        "t21",
+        "t22",
+        "t23",
+        "t24",
+        "t25",
+        "t26",
+        "t27",
+        "t28",
+        "t29",
+        "t30"
+      ]
+    }
+  ]
+}

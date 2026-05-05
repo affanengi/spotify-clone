@@ -1,0 +1,166 @@
+.footer-player {
+  width: 100%;
+  height: 100%;
+  color: var(--text-base);
+  font-size: 14px;
+}
+
+.now-playing-widget {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  min-width: 180px;
+  gap: 14px;
+}
+
+.cover-art {
+  width: 56px;
+  height: 56px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.track-meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.track-meta .title {
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.track-meta .title:hover {
+  text-decoration: underline;
+}
+
+.track-meta .artist {
+  font-size: 11px;
+  color: var(--text-subdued);
+  cursor: pointer;
+  margin-top: 2px;
+}
+
+.track-meta .artist:hover {
+  text-decoration: underline;
+  color: var(--text-base);
+}
+
+.like-btn {
+  color: var(--text-subdued);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  transition: transform 0.1s;
+}
+
+.like-btn:hover {
+  transform: scale(1.05);
+}
+
+.text-positive {
+  color: var(--text-positive);
+}
+
+.player-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  max-width: 722px;
+}
+
+.control-buttons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 8px;
+}
+
+.subdued {
+  color: var(--text-subdued);
+}
+
+.hover-white:hover {
+  color: var(--text-base);
+}
+
+.play-btn {
+  background-color: var(--text-base);
+  color: var(--background-base);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.1s;
+}
+
+.play-btn:hover {
+  transform: scale(1.05);
+}
+
+.playback-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 8px;
+}
+
+.time {
+  font-size: 11px;
+  min-width: 40px;
+  text-align: right;
+  color: var(--text-subdued);
+}
+
+.progress-container {
+  height: 12px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.progress-bar {
+  background-color: var(--background-tinted-highlight);
+  border-radius: 2px;
+  height: 4px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-fill {
+  background-color: var(--text-base);
+  height: 100%;
+  border-radius: 2px;
+}
+
+.progress-container:hover .progress-fill {
+  background-color: var(--text-positive);
+}
+
+.extra-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 30%;
+  min-width: 180px;
+  gap: 16px;
+}
+
+.volume-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 125px;
+}
+
+.volume-slider {
+  width: 93px;
+}

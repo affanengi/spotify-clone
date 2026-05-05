@@ -1,0 +1,97 @@
+.track-table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.table-header {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-bottom: 1px solid var(--background-tinted-base);
+  margin-bottom: 16px;
+  color: var(--text-subdued);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.table-row {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 56px;
+}
+
+.table-row:hover {
+  background-color: var(--background-tinted-base);
+}
+
+.col-index {
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 8px;
+}
+
+.col-title {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.col-album {
+  width: 25%;
+  min-width: 150px;
+}
+
+.col-date {
+  width: 20%;
+  min-width: 100px;
+}
+
+.col-duration {
+  width: 60px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 16px;
+}
+
+.track-info-col {
+  gap: 12px;
+}
+
+.track-thumb {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.track-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.track-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-base);
+  margin-bottom: 2px;
+}
+
+.track-artist {
+  font-size: 14px;
+}
+
+.text-positive {
+  color: var(--text-positive) !important;
+}
+
+.hover-white:hover {
+  color: var(--text-base);
+  text-decoration: underline;
+}

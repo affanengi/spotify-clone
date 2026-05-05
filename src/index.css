@@ -1,0 +1,184 @@
+:root {
+  --background-base: #000000;
+  --background-highlight: #1a1a1a;
+  --background-press: #000000;
+  --background-elevated-base: #121212;
+  --background-elevated-highlight: #2a2a2a;
+  --background-elevated-press: #000000;
+  --background-tinted-base: rgba(255, 255, 255, 0.07);
+  --background-tinted-highlight: rgba(255, 255, 255, 0.1);
+  --background-tinted-press: rgba(255, 255, 255, 0.04);
+  --text-base: #ffffff;
+  --text-subdued: #a7a7a7;
+  --text-bright-accent: #1ed760;
+  --text-negative: #f15e6c;
+  --text-warning: #ffa42b;
+  --text-positive: #1ed760;
+  --text-announcement: #3d91f4;
+  --essential-base: #ffffff;
+  --essential-subdued: #a7a7a7;
+  --essential-bright-accent: #1ed760;
+  --essential-negative: #e91429;
+  --essential-warning: #ffa42b;
+  --essential-positive: #1ed760;
+  --essential-announcement: #0d72ea;
+  --decorative-base: #ffffff;
+  --decorative-subdued: #292929;
+  --font-family: 'Inter', 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background-base);
+  color: var(--text-base);
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+.app-container {
+  display: grid;
+  /* Columns: Left Sidebar, Main Content, Right Sidebar */
+  grid-template-columns: 320px 1fr 320px;
+  grid-template-rows: 64px 1fr 90px;
+  height: 100vh;
+  width: 100vw;
+  gap: 8px;
+  padding: 8px;
+  background-color: var(--background-base);
+  transition: grid-template-columns 0.3s ease;
+}
+
+/* Modifiers for App Container based on Layout State */
+.app-container.left-collapsed {
+  grid-template-columns: 72px 1fr 320px;
+}
+
+.app-container.right-collapsed {
+  grid-template-columns: 320px 1fr 0px;
+}
+
+.app-container.left-collapsed.right-collapsed {
+  grid-template-columns: 72px 1fr 0px;
+}
+
+.app-container.library-expanded {
+  /* Left sidebar takes over main content */
+  grid-template-columns: 1fr 0px 320px;
+}
+
+.app-container.library-expanded.right-collapsed {
+  grid-template-columns: 1fr 0px 0px;
+}
+
+.left-sidebar {
+  grid-column: 1;
+  grid-row: 2; /* Moved to row 2 */
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow: hidden;
+}
+
+.main-content {
+  grid-column: 2;
+  grid-row: 2; /* Moved to row 2 */
+  background-color: var(--background-elevated-base);
+  border-radius: 8px;
+  overflow-y: auto;
+  position: relative;
+}
+
+.right-sidebar {
+  grid-column: 3;
+  grid-row: 2; /* Moved to row 2 */
+  background-color: var(--background-elevated-base);
+  border-radius: 8px;
+  overflow-y: auto;
+}
+
+/* Hide right sidebar completely if width is 0 */
+.app-container.right-collapsed .right-sidebar {
+  display: none;
+}
+
+.footer-player {
+  grid-column: 1 / -1;
+  grid-row: 3; /* Moved to row 3 */
+  background-color: var(--background-base);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Edge button to reopen right sidebar */
+.reopen-right-edge-btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 48px;
+  background-color: var(--background-elevated-highlight);
+  border-radius: 8px 0 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-subdued);
+  cursor: pointer;
+  z-index: 100;
+  box-shadow: -2px 0 8px rgba(0,0,0,0.5);
+  transition: all 0.2s;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-right: none;
+}
+
+.reopen-right-edge-btn:hover {
+  background-color: var(--background-tinted-highlight);
+  color: var(--text-base);
+  width: 28px;
+}
